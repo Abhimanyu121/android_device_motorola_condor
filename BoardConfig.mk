@@ -43,7 +43,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_condor
 
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3-linaro/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-5.3-lianro
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 #flags
 CLANG_O3 := false
